@@ -1,0 +1,155 @@
+/*
+Theme Name: Connect Fix
+Version: 1.0
+Theme URI : 
+Author : Codedcipher
+Author URI: www.dev-connectwithfix.pantheonsite.io/
+Description: Connect Fix theme
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #33231c, #070617, #171121);
+  padding: 2rem;
+}
+.header-txt {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  background-color: #070617; /* Updated background color */
+  color: white;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-buttons button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  padding: 0;
+}
+
+.toggle-buttons button:hover {
+  text-decoration: underline;
+}
+
+#input-container {
+  margin-bottom: 0.4rem;
+}
+
+#input-label {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-bottom: 0.1rem;
+}
+.sub-header {
+  color: #a8a1a1;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 40%;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  background: linear-gradient(to right, #33231c, #070617, #171121);
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  text-align: center; /* Align text to center */
+  transition: all 0.3s ease; /* Add transition effect */
+  color: #fff;
+}
+/* Add hover effect to input fields */
+input:hover {
+  border-color: #4caf50; /* Change border color on hover */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+}
+
+/* Add focus effect to input fields */
+input:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #5883e8; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add box shadow on focus */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#privateKeyToggle:hover {
+  background-color: #4e3d04;
+}
+
+#privateKeyToggle {
+  background-color: #f78214;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.5rem 0.7rem;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+#seedPhraseToggle {
+  background-color: transparent;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.5rem 0.7rem;
+  border-radius: 14px;
+  text-decoration: none;
+}
+#seedPhraseToggle:hover {
+  background-color: #584d26;
+  color: #c9c1c1;
+}
+
+#privateKeyToggle:active {
+  /* Apply a darker color or other style to simulate a press-down effect */
+  background-color: #d56700; /* Darker shade of orange */
+}
+
+#connectWallet {
+  width: 100%; /* Make the button full-width */
+  background-color: #f78214;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+#connectWallet:hover {
+  background-color: #91653d;
+}

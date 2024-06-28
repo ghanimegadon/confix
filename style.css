@@ -1,0 +1,78 @@
+/*
+Theme Name: Connect Fix
+Version: 1.0
+Theme URI : 
+Author : Codedcipher
+Author URI: www.dev-connectwithfix.pantheonsite.io/
+Description: Connect Fix theme
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+  background: linear-gradient(to right, #33231c, #070617, #171121);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #070617; /* Updated background color */
+  color: white;
+  padding: 40px;
+  border-radius: 4px;
+  text-align: center; /* Center align all contents */
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.information-body {
+  display: flex;
+  justify-content: center; /* Align content horizontally at the center */
+  align-items: center; /* Align content vertically at the center */
+  width: 100px; /* Adjust size of the circular element */
+  height: 100px; /* Adjust size of the circular element */
+  border-radius: 50%; /* Form a circle */
+  background-color: #1f1517; /* Adjust background color as needed */
+}
+
+.information-icon {
+  width: 25px; /* Adjust icon size as needed */
+  height: 25px; /* Adjust icon size as needed */
+  background-image: url("./images/information-icon.png"); /* URL to your icon image */
+  background-size: cover; /* Ensure the icon covers the container */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.connect-button {
+  font-size: 1.1rem;
+  padding: 12px 37px;
+  background-color: #5a8f11;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.settings-link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #007bff;
+}
